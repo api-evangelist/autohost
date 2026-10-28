@@ -64,5 +64,26 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Autohost is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://autohost.ai/
+Autohost provides AI-powered identity verification, background checks, credit history verification, and fraud detection services tailored for the hospitality and real‑estate sectors. Their platform offers a suite of APIs that enable businesses to integrate secure guest screening, touchless verification, and risk assessment into property‑management systems, with flexible, usage‑based pricing and comprehensive privacy and support resources.
+
+**Areas:** Company · IdentityVerification · BackgroundCheck · FraudDetection · Hospitality · RealEstate
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.autohost.ai/)
+- [Documentation](https://help.autohost.ai/knowledge)
+- [Getting started](https://help.autohost.ai/knowledge/getting-started?hsLang=en)
+- [API reference](https://docs.autohost.ai/docs/category/reference)
+- [Pricing](https://www.autohost.ai/pricing/)
+- [Support](https://www.autohost.ai/support/)
+- [Privacy policy](https://www.autohost.ai/privacy/)
+- [GitHub](https://github.com/AutohostAI/)
+- [Status](https://status.autohost.ai)
+
+**APIs profiled:** 8
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/autohost/](https://apis.io/providers/autohost/).
