@@ -68,6 +68,85 @@ Autohost provides AI-powered identity verification, background checks, credit hi
 
 **Areas:** Company · IdentityVerification · BackgroundCheck · FraudDetection · Hospitality · RealEstate
 
+## Autohost on APIs.io
+
+Everything profiled for Autohost is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/autohost/](https://apis.io/providers/autohost/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Autohost Accounts API](https://apis.io/apis/autohost/autohost-accounts-api/) — The Accounts API from Autohost — 7 operation(s) for accounts.
+- [Autohost Background Check API](https://apis.io/apis/autohost/autohost-background-check-api/) — The Background Check API from Autohost — 2 operation(s) for background check.
+- [Autohost Fraud API](https://apis.io/apis/autohost/autohost-fraud-api/) — The Fraud API from Autohost — 1 operation(s) for fraud.
+- [Autohost Idcheck API](https://apis.io/apis/autohost/autohost-idcheck-api/) — The Idcheck API from Autohost — 3 operation(s) for idcheck.
+- [Autohost Listings API](https://apis.io/apis/autohost/autohost-listings-api/) — The Listings API from Autohost — 4 operation(s) for listings.
+- [Autohost Lookup API](https://apis.io/apis/autohost/autohost-lookup-api/) — The Lookup API from Autohost — 12 operation(s) for lookup.
+- [Autohost Reservations API](https://apis.io/apis/autohost/autohost-reservations-api/) — The Reservations API from Autohost — 11 operation(s) for reservations.
+- [Autohost Validate API](https://apis.io/apis/autohost/autohost-validate-api/) — The Validate API from Autohost — 2 operation(s) for validate.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Autohost Agentic Access](https://apis.io/agentic-access/autohost/autohost-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BackgroundCheckResultsResponse](https://apis.io/schemas/autohost/autohost-background-check-results-response/)
+- [PaymentEventRequest](https://apis.io/schemas/autohost/autohost-payment-event-request/)
+- [ReservationCreateRequest](https://apis.io/schemas/autohost/autohost-reservation-create-request/)
+- [ReservationPaymentsResponse](https://apis.io/schemas/autohost/autohost-reservation-payments-response/)
+- [ReservationScreensResponse](https://apis.io/schemas/autohost/autohost-reservation-screens-response/)
+- [ReservationSummaryResponse](https://apis.io/schemas/autohost/autohost-reservation-summary-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Autohost Context](https://apis.io/jsonld/autohost/autohost-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Autohost Openapi Overlay](https://apis.io/overlays/autohost/autohost-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Autohost API Rules](https://apis.io/rules/autohost/autohost-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Autohost Authentication](https://apis.io/security/autohost/autohost-authentication/)
+- [Autohost Domain Security](https://apis.io/security/autohost/autohost-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Autohost Scopes](https://apis.io/scopes/autohost/autohost-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Autohost Plans Pricing](https://apis.io/plans/autohost/autohost-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Autohost Rate Limits](https://apis.io/rate-limits/autohost/autohost-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
@@ -82,8 +161,57 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [GitHub](https://github.com/AutohostAI/)
 - [Status](https://status.autohost.ai)
 
-**APIs profiled:** 8
-
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/autohost/](https://apis.io/providers/autohost/).
+**Kin Score 50.2** — developing · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 53.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 51.7 |
+| Access clarity | 21.1 |
+
+**Agent readiness 41.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/autohost/](https://apis.io/providers/autohost/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Autohost: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/autohost/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
